@@ -1,0 +1,3 @@
+print('Hola gitHub')
+nombre= input('Ingrese su nombre')
+print ('Binevenido',nombre)
