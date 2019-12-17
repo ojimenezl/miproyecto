@@ -1,0 +1,76 @@
+    1  sudo apt update
+    2  sudo apt install apache2
+    3  apache2 status
+    4  systemctl status apache2
+    5  chmod 777 /var/www/html/
+    6  sudo chmod 777 /var/www/html/
+    7  sudo chmod 777 /var/www/html/index.html
+    8  sudo chmod 777 /var/www/html/index.nginx-debian.html 
+    9  service apache
+   10  service star apache 
+   11  service start apache 
+   12  start service apache 
+   13  sudo
+   14  apt-get install git
+   15  sudo apt-get install git
+   16  sudo  rm /var/lib/dpkg/lock-frontend
+   17  sudo apt-get install git
+   18  git config --global user.name "ojimenezl@est.ups.edu.ec"
+   19  git config --global user.name "ojimenezl"
+   20  git config --global user.email "ojimenezl@est.ups.edu.ec"
+   21  git config --global core.editor nano
+   22  sudo apt install meld
+   23  git config --global merge.tool meld
+   24  git config --list
+   25  mkdir miproyecto
+   26  cd miproyecto
+   27  echo "print('Hola git')" > hola.py
+   28  echo  "Primer proyecto en GIT" > README.txt
+   29  ls
+   30  cd
+   31  cd miproyecto
+   32  git init
+   33  git add *.py
+   34  git add README.txt
+   35  git commit -m "version incial del proyecto"
+   36  git status
+   37  touch datos.csv
+   38  git status
+   39  git add datos.csv
+   40  git status
+   41  nano hola.py}
+   42  git add hola.py
+   43  git status
+   44  git add hola.py}
+   45  git status
+   46  git diff
+   47  git --cached
+   48  git diff --cached
+   49  nano hola.py}
+   50  git status
+   51  git diff
+   52  git diff --cached
+   53  git add hola.py}
+   54  git status
+   55  git commit
+   56  git commit -a -m 'nueva version'
+   57  rm datos.csv
+   58  git status
+   59  git rm datos.csv
+   60  git status
+   61  git rm --cached datos.csv
+   62  git mv README.txt README
+   63  git status
+   64  mv README README.txt
+   65  git rm README
+   66  git add README.txt
+   67  git commit -m "Eliminando datos y cambiando el README"
+   68  GIT LOG
+   69  git log
+   70  git log -p -2
+   71  sudo apt install gitk
+   72  gitk
+   73  git remote add origin https://github.com/ojimenezl/miproyecto.git
+   74  git push -u origin master
+   75  git pull
+   76  history > historial.txt
